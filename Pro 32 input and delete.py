@@ -1,0 +1,7 @@
+line = input("Enter any line: ")
+print(line)
+list = line.split(" ")
+print(list)
+re = input("Enter the unwanted word: ")
+list.remove(re)
+print(list)

@@ -1,0 +1,9 @@
+start=1
+end=(int(input("Enter No.: ")))
+while start<=end:
+    y=1
+    while y<=10:
+        z=start*y
+        print(start,"*", y, "=",z,)
+        y=y+1
+    start=start+1
